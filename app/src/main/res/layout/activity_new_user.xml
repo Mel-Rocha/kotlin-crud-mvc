@@ -11,10 +11,10 @@
         android:padding="18dp">
 
         <EditText
-            android:id="@+id/editNome"
+            android:id="@+id/editTextName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nome"
+            android:hint="Name"
             android:textColorHint="@color/pink_font"
             android:textColor="@color/pink_font"
             android:backgroundTint="@color/pink_background"
@@ -24,10 +24,10 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editEmail"
+            android:id="@+id/editTextEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="E-mail"
+            android:hint="Email"
             android:textColorHint="@color/pink_font"
             android:textColor="@color/pink_font"
             android:backgroundTint="@color/pink_background"
@@ -38,7 +38,7 @@
             android:inputType="textEmailAddress" />
 
         <EditText
-            android:id="@+id/editCpf"
+            android:id="@+id/editTextCpf"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="CPF"
@@ -52,10 +52,10 @@
             android:inputType="number" />
 
         <EditText
-            android:id="@+id/editSenha"
+            android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Senha"
+            android:hint="Password"
             android:textColorHint="@color/pink_font"
             android:textColor="@color/pink_font"
             android:backgroundTint="@color/pink_background"
@@ -66,10 +66,10 @@
             android:inputType="textPassword" />
 
         <EditText
-            android:id="@+id/editDataNascimento"
+            android:id="@+id/editTextBirthDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Data de nascimento"
+            android:hint="Birth date"
             android:textColorHint="@color/pink_font"
             android:textColor="@color/pink_font"
             android:backgroundTint="@color/pink_background"
@@ -80,19 +80,19 @@
             android:inputType="date" />
 
         <CheckBox
-            android:id="@+id/checkBoxAdmin"
+            android:id="@+id/checkBoxAdminUser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Usuário administrador"
+            android:text="Administrator user"
             android:textSize="18sp"
             android:textColor="@color/pink_font"
             android:padding="12dp" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnSalvar"
+            android:id="@+id/buttonSave"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Salvar"
+            android:text="Save"
             android:textAllCaps="false"
             android:textColor="@color/pink_font"
             android:backgroundTint="@color/pink_background" />
