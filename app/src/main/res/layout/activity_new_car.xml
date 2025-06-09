@@ -14,64 +14,64 @@
             android:id="@+id/editTextBrand"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Brand"
-            android:textColorHint="@color/pink_font"
-            android:textColor="@color/pink_font"
             android:backgroundTint="@color/pink_background"
-            android:textSize="18sp"
+            android:hint="Brand"
             android:minHeight="48dp"
             android:padding="12dp"
+            android:textColor="@color/pink_font"
+            android:textColorHint="@color/pink_font"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editTextModel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Model"
-            android:textColorHint="@color/pink_font"
-            android:textColor="@color/pink_font"
             android:backgroundTint="@color/pink_background"
-            android:textSize="18sp"
+            android:hint="Model"
             android:minHeight="48dp"
             android:padding="12dp"
+            android:textColor="@color/pink_font"
+            android:textColorHint="@color/pink_font"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editTextYear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/pink_background"
             android:hint="Year"
             android:inputType="number"
-            android:textColorHint="@color/pink_font"
-            android:textColor="@color/pink_font"
-            android:backgroundTint="@color/pink_background"
-            android:textSize="18sp"
             android:minHeight="48dp"
             android:padding="12dp"
+            android:textColor="@color/pink_font"
+            android:textColorHint="@color/pink_font"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editTextPrice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/pink_background"
             android:hint="Price"
             android:inputType="numberDecimal"
-            android:textColorHint="@color/pink_font"
-            android:textColor="@color/pink_font"
-            android:backgroundTint="@color/pink_background"
-            android:textSize="18sp"
             android:minHeight="48dp"
             android:padding="12dp"
+            android:textColor="@color/pink_font"
+            android:textColorHint="@color/pink_font"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/buttonSaveCar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/pink_background"
             android:text="Save"
             android:textAllCaps="false"
-            android:textColor="@color/pink_font"
-            android:backgroundTint="@color/pink_background" />
+            android:textColor="@color/pink_font" />
     </LinearLayout>
 </ScrollView>
 
